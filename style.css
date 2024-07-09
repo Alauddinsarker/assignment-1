@@ -15,6 +15,7 @@ body {
   font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 800;
+  text-align: center;
 }
 .common-p {
   color: rgb(13, 19, 33);
@@ -22,6 +23,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin: 0px 48px;
+  text-align: center;
   /* border: 1px solid red; */
 }
 /* Banner styles start here */
@@ -139,6 +141,7 @@ body {
   width: 1140px;
   margin: 0 auto;
   margin-top: 90px;
+  margin-bottom: 100px;
 }
 .inspiration-section-container h3 {
   text-align: center;
@@ -147,9 +150,104 @@ body {
   text-align: center;
   margin: 24px 144px 48px 144px;
 }
-.inspiration-section-container .youtube{
-    /* border: 1px solid red; */
-    padding: 24px;
-
+.inspiration-section-container .youtube {
+  /* border: 1px solid red; */
+  height: 614px;
+  padding: 24px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
 }
 /* Inspiration section styles ends here */
+/* Target section styles start here */
+.target-section-container {
+  width: 1140px;
+  margin: 0 auto;
+  height: 460px;
+}
+.target-section-container > p {
+  margin: 24px 144px;
+}
+.target-section-container .target-language {
+  display: flex;
+  gap: 24px;
+  margin: 24px auto;
+}
+.div-html {
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.div-html h5 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+.div-html p {
+  margin: 24px 0px;
+}
+.div-html .learn-more {
+  
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+}
+.div-html a {
+  color: rgb(13, 19, 33);
+}
+.div-css {
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.div-css h5 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+.div-css p {
+  margin: 24px 0px;
+}
+.div-css .learn-more {
+  
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+}
+.div-css a {
+  color: rgb(13, 19, 33);
+}
+.div-js {
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.div-js h5 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+.div-js p {
+  margin: 24px 0px;
+}
+.div-js .learn-more {
+  
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+}
+.div-js a {
+  color: rgb(13, 19, 33);
+}
+/* Target section styles ends here */
