@@ -9,6 +9,21 @@
 body {
   font-family: "Azeret Mono", monospace;
 }
+/* Common Styles */
+.common-h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+.common-p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 48px;
+  /* border: 1px solid red; */
+}
 /* Banner styles start here */
 .banner-container {
   width: 1440px;
@@ -56,8 +71,8 @@ body {
 /* why-development section style starts here */
 .why-development-container {
   width: 1140px;
-  height: 1393px;
-  border: 1px solid red;
+  /* height: 1393px;
+  border: 1px solid red; */
   margin: 0 auto;
   margin-top: 80px;
   padding: 80px 97px;
@@ -68,19 +83,7 @@ body {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
 }
-.why-development-container h3 {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 32px;
-  font-weight: 800;
-}
-.why-development-container > p {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 16px;
-  font-weight: 400;
-  margin: 0px 48px;
-}
+
 .why-development-section1-container {
   display: flex;
   justify-content: space-between;
@@ -130,3 +133,23 @@ body {
   width: 100%;
 }
 /* why-development section style ends here */
+
+/* Inspiration section styles start here */
+.inspiration-section-container {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.inspiration-section-container h3 {
+  text-align: center;
+}
+.inspiration-section-container > p {
+  text-align: center;
+  margin: 24px 144px 48px 144px;
+}
+.inspiration-section-container .youtube{
+    /* border: 1px solid red; */
+    padding: 24px;
+
+}
+/* Inspiration section styles ends here */
