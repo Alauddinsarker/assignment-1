@@ -11,7 +11,6 @@ body {
 }
 /* Banner styles start here */
 .banner-container {
-  border: 1px solid red;
   width: 1440px;
   height: 652px;
   background-image: url(./assets/hero-bg.png);
@@ -54,3 +53,80 @@ body {
   text-align: center;
 }
 /* Banner styles ends here */
+/* why-development section style starts here */
+.why-development-container {
+  width: 1140px;
+  height: 1393px;
+  border: 1px solid red;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 80px 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why-development-container h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+.why-development-container > p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 48px;
+}
+.why-development-section1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+  width: 946px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 48px;
+}
+.why-development-section1 {
+  width: 488px;
+  /* border: 1px solid orange; */
+  height: 242px;
+}
+.why-development-section1 h5 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+}
+.why-development-section1 p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 32px 0px;
+}
+.why-development-section1 button {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px;
+}
+.why-development-container .why-development-img {
+  width: 260px;
+  /* border: 1px solid red; */
+}
+.why-development-container .why-development-img img {
+  width: 100%;
+}
+/* why-development section style ends here */
