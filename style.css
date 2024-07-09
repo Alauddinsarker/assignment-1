@@ -201,7 +201,7 @@ body {
   width: 364px;
   height: 299px;
   border-radius: 16px;
-  background: rgba(255, 76, 30, 0.05);
+  background: rgba(0, 76, 232, 0.05);
   padding: 40px;
 }
 .div-css h5 {
@@ -226,7 +226,7 @@ body {
   width: 364px;
   height: 299px;
   border-radius: 16px;
-  background: rgba(255, 76, 30, 0.05);
+  background: rgba(255, 223, 0, 0.05);
   padding: 40px;
 }
 .div-js h5 {
@@ -253,6 +253,7 @@ body {
   width: 1140px;
   height: 313px;
   margin: 40px auto;
+  margin-bottom: 80px;
   padding-top: 40px;
   background-image: url(./assets/handshake.jpg);
   background-size: cover;
@@ -298,3 +299,25 @@ body {
   font-weight: 600;
 }
 /* Support section styles ends here */
+/* Footer Styles start here */
+footer {
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer > h5 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-icon a {
+  margin-left: 16px;
+}
+/* Footer Styles ends here */
